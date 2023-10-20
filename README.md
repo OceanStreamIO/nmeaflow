@@ -29,18 +29,18 @@ npm install nmeaflow
 
 ### Options
 
-| Option                    | Description                                                                                   | Default Value       |
-|---------------------------|-----------------------------------------------------------------------------------------------|---------------------|
-| `--port-start [portStart]`| Starting port for the simulator                                                                | 4001                |
-| `--port-end [portEnd]`    | Ending port for the simulator                                                                  | 4006                |
-| `-c, --config [config]`   | Config file with list of files to replay                                                       |                     |
-| `--id [id]`               | Id for an individual simulator instance                                                        |                     |
-| `-p, --port [port]`       | Single port to run an individual simulator instance                                            |                     |
-| `-f, --filename [filename]| Filename for an individual simulator instance                                                  |                     |
-| `-i, --interval [interval]| Broadcasting interval for an individual simulator instance in milliseconds                     | 10000               |
-| `-a, --address [address]` | Address to listen on                                                                           | `localhost`         |
-| `-h, --host`              | Listen to all available IPs                                                                    |                     |
-| `--log-level [logLevel]`  | Specify log level                                                                              | `debug`             |
+| Option                  | Description                                                                                   | Default Value       |
+|-------------------------|-----------------------------------------------------------------------------------------------|---------------------|
+| `--port-start`| Starting port for the simulator                                                                | 4001                |
+| `--port-end`    | Ending port for the simulator                                                                  | 4006                |
+| `-c`, `--config`  | Config file with list of files to replay                                                       |                     |
+| `--id`              | Id for an individual simulator instance                                                        |                     |
+| `-p`, `--port`     | Single port to run an individual simulator instance                                            |                     |
+| `-f`, `--filename`| Filename for an individual simulator instance                                                  |                     |
+| `-i`, `--interval`| Broadcasting interval for an individual simulator instance in milliseconds                     | 10000               |
+| `-a`, `--address` | Address to listen on                                                                           | `localhost`         |
+| `-h`, `--host`            | Listen to all available IPs                                                                    |                     |
+| `--log-level` | Specify log level                                                                              | `debug`             |
 
 ### Logging
 
