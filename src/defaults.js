@@ -1,0 +1,11 @@
+const PORT_START = 4001;
+const PORT_END = 4006;
+const INTERVAL_BROADCAST_MS = 10000;
+const LOG_LEVEL = 'debug';
+
+module.exports = {
+  PORT_START,
+  PORT_END,
+  LOG_LEVEL,
+  INTERVAL_BROADCAST_MS
+}

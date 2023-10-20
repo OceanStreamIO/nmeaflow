@@ -1,0 +1,37 @@
+{
+  "name": "@oceanstream/nmeaflow",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "bin": {
+    "nmeaflow": "bin/nmeaflow.js"
+  },
+  "author": "Andrei Rusu",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "winston": "^3.11.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "files": [
+    "bin",
+    "data",
+    "src",
+    "index.d.ts",
+    "README.md"
+  ],
+  "types": "index.d.ts",
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "mocha": "^10.2.0",
+    "sinon": "^16.1.0"
+  }
+}
