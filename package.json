@@ -6,7 +6,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "eslint": "eslint src --quiet",
+    "test": "mocha test/simulator.test.js"
+  },
   "keywords": [],
   "bin": {
     "nmeaflow": "bin/nmeaflow.js"
