@@ -1,5 +1,5 @@
 {
-  "name": "@oceanstream/nmeaflow",
+  "name": "nmeaflow",
   "publishConfig": {
     "access": "public"
   },
